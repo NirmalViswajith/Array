@@ -18,12 +18,9 @@ class BinarySearch{
     {
       int[] A = { 2, 5, 6, 8, 9, 10 };
       int key = 5;
- 
       int left = 0;
       int right = A.length - 1;
- 
       int index = binarySearch(A, left, right, key);
- 
       if (index != -1) {
           System.out.println("Element found at index " + index);
       } else {
